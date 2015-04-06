@@ -16,8 +16,8 @@ _Micro frameworks_ are popular now, so I'll go _nano framework_ :-). This is all
  *
  * Some examples:
  *
- *  - `let x : String = undefined()
- *  - `let f : String -> Int? = undefined("string to optional int function")
+ *  - `let x : String = undefined()`
+ *  - `let f : String -> Int? = undefined("string to optional int function")`
  *  - `return undefined() /* in any function */`
  *  - `let x : String = (undefined() as Int -> String)(42)`
  *  - ...
