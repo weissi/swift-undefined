@@ -27,7 +27,7 @@ _Micro frameworks_ are popular now, so I'll go _nano framework_ :-). This is all
  * `fatal error: undefined: main.swift, line 131`
  *
  */
-public func undefined<T>(hint: String = "", file: StaticString = __FILE__, line: UInt = __LINE__) -> T {
+public func undefined<T>(hint: String = "", file: StaticString = #file, line: UInt = #line) -> T {
     let message = hint == "" ? "" : ": \(hint)"
     fatalError("undefined \(T.self)\(message)", file:file, line:line)
 }
