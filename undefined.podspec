@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/weissi/swift-undefined"
   s.license      = "MIT"
 
-  s.author             = { "Johannes Weiß" => "public@tux4u.de" }
+  s.author             = { "Johannes Weiss" => "public@tux4u.de" }
   s.social_media_url   = "https://twitter.com/johannesweiss"
 
   s.ios.deployment_target = '8.0'
@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/weissi/swift-undefined.git", 
                      :tag => s.version }
-  s.source_files = "*.swift"
+  s.source_files = "Sources/Undefined/*.swift"
 end
